@@ -127,8 +127,8 @@ h1 {
     padding: 0px;
 }
 .ang-mes {
-        max-width: 327px !important;
-        max-height: 220px !important;
+max-width: 360px !important;
+        max-height: 320px !important;
         margin: 0px 0px !important;
         padding: 0px !important;
         font-size: 16px !important;
@@ -166,7 +166,7 @@ h1 {
 }
 
 .ang-mes{
-    max-width: 680px;
+    max-width: auto;
     color: #5B0833;
     max-height: 285px;
     margin: -25px 0px;
