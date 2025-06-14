@@ -36,11 +36,11 @@ body {
   pointer-events: none;
 }
 .left {
-  left: 0;
+  left: 2px;
   background-image: url('left-margin.png'); /* .png con transparencia */
 }
 .right {
-  right: 0;
+  right: -7px;
   background-image: url('right-margin.png');
 }
 
@@ -60,8 +60,8 @@ img {
 
 .asisten-press{
     margin: auto;
-    width: 280px;
-    height: 85px;
+    width: 240px;
+    height: 81px;
 }
 
 /* Cabecera */
@@ -116,7 +116,7 @@ header {
     flex-wrap: wrap;
     }
     .content-area {
-      font-size: 14px!important;
+      font-size: 16px!important;
       padding: 0px 20px!important;
 }
 
@@ -127,11 +127,12 @@ h1 {
     padding: 0px;
 }
 .ang-mes {
-    max-width: 440px!important;
-    max-height: 80px!important;
-    margin: -9px 0px!important;
-    padding: 0px!important;
-    font-size: 14px!important;
+        max-width: 327px !important;
+        max-height: 220px !important;
+        margin: 0px 0px !important;
+        padding: 0px !important;
+        font-size: 16px !important;
+        line-height: 20px;
 }
 
 }
@@ -165,9 +166,9 @@ h1 {
 }
 
 .ang-mes{
-    max-width: 540px;
+    max-width: 680px;
     color: #5B0833;
-    max-height: 125px;
+    max-height: 285px;
     margin: -25px 0px;
     padding: 0px;
     font-size: 22px;
