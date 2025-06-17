@@ -18,3 +18,45 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }, 7000);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+  const imagen = document.getElementById('imagen-animada');
+
+  setInterval(() => {
+    imagen.classList.add('palpito');
+    setTimeout(() => {
+      imagen.classList.remove('palpito');
+    }, 600); // duración de la animación
+  }, 1300); // cada 5 segundos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const imagenTemblor = document.getElementById('imagen-temblor');
+
+  setInterval(() => {
+    imagenTemblor.classList.add('temblor-efecto');
+    setTimeout(() => {
+      imagenTemblor.classList.remove('temblor-efecto');
+    }, 600);
+  }, 500);
