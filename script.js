@@ -59,4 +59,4 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       imagenTemblor.classList.remove('temblor-efecto');
     }, 600);
-  }, 500);
+  }, 800);
